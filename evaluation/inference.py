@@ -63,7 +63,6 @@ def tokenizer_param(tokenizer, target, shots=0, cot=False, task_type="mcq"):
             max_new_tokens += 8
     if cot:
         max_new_tokens = 1024
-
     return max_new_tokens, stop_seq
 
 
