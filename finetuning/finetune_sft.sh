@@ -253,3 +253,4 @@ CUDA_DEVICE_MAX_CONNECTIONS=1 OMP_NUM_THREADS=16 torchrun $DISTRIBUTED_ARGS Mega
        --num_workers=2 \
        $EXTRA_ARGS \
        $COMMON_ARGS
+
